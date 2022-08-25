@@ -1,0 +1,144 @@
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+main {
+    text-align: center !important; 
+}
+
+.container1 {
+    display: inline-flex; 
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    position: fixed; 
+    background-color: black;
+    align-items: center; 
+}
+
+
+.navigation {
+    display: inline-flex; 
+    width: 350px;
+    margin-left:auto;
+    justify-content: space-between;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+.logo img{
+    height: 50px;
+    margin-left: 10px; 
+}
+
+.detail img{
+    width: 300px;
+    height: 200px;
+}
+
+
+#banner {
+    background-image: url("img/img-mission-background.jpg");
+    background-size:cover;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+ 
+
+
+#banner .banner-word {
+    background-color: black;
+    width: 1200px;
+    height: 143px;
+}
+
+#container2 {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.detail {
+    display: inline-flex;
+    width: 1000px;
+}
+
+#wrap {
+    flex-wrap: wrap;
+}
+
+.first-line {
+    display: inline-flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+.content h4 {
+    margin-top: 10px;
+}
+
+.second-line {
+    margin: 0 auto;
+    display: inline-flex;
+    width: 650px;
+    justify-content: space-between;
+}
+
+.positions {
+    background-image: url("img/img-locations-background.jpg");
+    background-size:cover;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.positions h2 {
+    margin-bottom: 15px;
+}
+
+.container3 {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 980px;
+}
+
+.box {
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+}
+
+.box p {
+    line-height: 50px;
+}
+
+.container4 {
+    height: 200px;
+}
+
+.container4 h2 {
+    margin-top: 15px;
+}
+
+footer {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+a {
+    color: seashell;
+}
+
+a:hover {
+    color: skyblue;
+}
